@@ -1,0 +1,114 @@
+p{
+        /* Text color and background */
+        color: #e60000; /* Blood-red color for that ominous touch */
+        background: linear-gradient(145deg, #1a1a1a, #000000); /* Dark gradient background */
+        padding: 15px;
+        border-radius: 10px;
+    
+        /* Shadowing to make it pop */
+        text-shadow: 0 0 5px #ff0000, /* Inner red glow */
+                     0 0 10px rgba(0, 0, 0, 0.7); /* Fainter outer shadow */
+    
+        /* Font properties */
+        font-size: 1.2em;
+        font-weight: 600;
+        line-height: 1.6em;
+        letter-spacing: 0.5px;
+    
+        /* Border for extra presence */
+        border: 2px solid #800000; /* Dark red border */
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.3), /* Red glow */
+                    inset 0 0 5px rgba(255, 0, 0, 0.5); /* Inner glow */
+    
+        /* Transition on hover */
+        transition: color 0.3s, text-shadow 0.3s, box-shadow 0.3s;
+    }
+    
+    p:hover {
+        /* Intensify the glow and color on hover */
+        color: #ffffff; /* White text */
+        text-shadow: 0 0 8px #ff0000, 0 0 15px #ff0000; /* Stronger red glow */
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.6), inset 0 0 10px rgba(255, 0, 0, 0.7);
+    }
+    
+
+ul {
+    /* Background and padding to give it presence */
+    background-color: #1a1a1a; /* Dark, shadowy background */
+    padding: 20px;
+    border-radius: 8px; /* Smooth edges to contrast with the sharp look */
+
+    /* Glow effect */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7), /* Red glow */ 
+                0 0 20px rgba(255, 0, 0, 0.4), /* Fainter outer glow */
+                0 0 30px rgba(255, 0, 0, 0.2);
+}
+
+ul li {
+    /* Bold font with spacing */
+    color: #ff0000; /* Blood-red font color */
+    font-size: 1.2em; /* Larger text for impact */
+    font-weight: bold;
+    margin: 10px 0;
+
+    /* Cursed bullet points */
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px; /* Space for bullet icon */
+}
+
+ul li::before {
+    content: "⚔️"; /* Replace with any symbol or emoji for a dark vibe */
+    position: absolute;
+    left: 0;
+    color: #ff0000; /* Matches the red of the text */
+    font-size: 1.2em; /* Same size as text */
+    transform: rotate(15deg); /* Tilt for some cursed flair */
+}
+
+ul li:hover {
+    /* Transition effect on hover */
+    color: #ffffff; /* Change text to white */
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000; /* Add red glow to text */
+    transition: color 0.2s, text-shadow 0.2s;
+}
+h1 {
+    /* Text color and background gradient */
+    color: #ff0000; /* Blood-red, striking color */
+    background: linear-gradient(135deg, #1a1a1a 20%, #000000 80%);
+    padding: 20px;
+    border-radius: 10px;
+
+    /* Font size and style for maximum intimidation */
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+    /* Text shadow to create a dark, fiery glow */
+    text-shadow: 0 0 10px #ff0000,   /* Red glow close to text */
+                 0 0 20px #800000,   /* Darker red outer glow */
+                 0 0 30px #4d0000;   /* Faint shadow further out */
+
+    /* Box shadow to create a powerful, cursed aura around */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5), 
+                0 0 20px rgba(255, 0, 0, 0.3),
+                inset 0 0 15px rgba(255, 0, 0, 0.7);
+
+    /* Slow transition effect on hover */
+    transition: transform 0.3s, color 0.3s, text-shadow 0.3s;
+}
+
+h1 {
+    /* On hover: make the glow pulse and the text shift slightly */
+    color: #ffffff; /* Turns white to show raw power */
+    transform: scale(1.05); /* Slight increase in size */
+    text-shadow: 0 0 15px #ff0000, 0 0 30px #ff0000, 0 0 50px #ff0000; /* Stronger red glow */
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7), 0 0 30px rgba(255, 0, 0, 0.5), inset 0 0 20px rgba(255, 0, 0, 0.9);
+}
+html {
+    font-size: 12px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+    background-color: grey;
+  }
+  
